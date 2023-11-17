@@ -1,29 +1,32 @@
 *{
     font-family: 'Poppins';
+    box-sizing: border-box;
 }
+
+
 
 body{
     height: 50rem;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* BARRA DE NAVEGAÇÃO */
 nav{
-    background-color: #212026;
+    background-color: white;
     height: 10vh;
+    width: 100vw;
 } 
 
 ul li{
     list-style: none;
     padding: 1rem;
-    color: white;
+    color: black;
 }
-
 ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 ul{
@@ -43,8 +46,21 @@ main{
 
 /* SHAPE E INTRODUÇÃO */
 section#introd{
-    height: 70vh;
-    
+    height: 80vh; 
+}
+
+div#main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color:  #212026;
+    height: 80vh;
+}
+
+div#main img{
+    object-fit: cover;
+    max-width: 100%;
 }
 
 /* POPULARES */
@@ -52,7 +68,7 @@ section#introd{
 #eventos{
     background-color: #212026;
     padding-top: 1rem;
-    height: 100vh;
+    height: 110vh;
 }
 
 #shows{
@@ -62,7 +78,7 @@ section#introd{
 #shows>p{
     color: #988965;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: underline;
 }
 
@@ -73,17 +89,20 @@ section#introd{
 }
 
 #atr1, #atr2, #atr3{
-    background-color: white;
-    width: 45vw;
+    background-color: rgb(245, 245, 245);
+    width: 46.5vw;
     border-radius: 0.8rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
 }
 
 #atr1:hover, #atr2:hover, #atr3:hover{
     transform: scale(1.05);
+    box-shadow: 1rem 1rem 4rem rgba(255, 255, 255, 0.26);
 }
 
-
+#eventos a{
+    text-decoration: none;
+}
 
 div.imagem{
     display: flex;
@@ -97,7 +116,7 @@ div.imagem img{
 }
 
 .teatro p:nth-child(1){
-    color: red;
+    color: #7a6e4f;
     margin-top: 0;
 }
 
@@ -108,10 +127,11 @@ div.imagem img{
 .texto p{
     margin-bottom: 0;
     margin-top: 0;
+
 }
 
 .texto p:nth-child(2){
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: rgb(92, 90, 90);
 }
 
@@ -141,6 +161,17 @@ footer{
 
 .icon p{
     margin: 1rem;
+}
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores, como smartphones */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Outros estilos específicos para telas menores */
 }
 
 
