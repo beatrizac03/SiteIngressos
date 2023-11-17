@@ -1,0 +1,129 @@
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    height: 50rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+nav{
+    background-color: #3D5CAB;
+    height: 4rem;
+} 
+
+ul li{
+    list-style: none;
+    padding: 1rem;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#logo{
+    padding-right: 55rem;
+}
+
+/*  MAIN */
+main{
+    flex: 1;
+}
+
+/* SHAPE E INTRODUÇÃO */
+section#introd{
+    height: 20rem;
+    
+}
+
+div#main{
+    background-color: #3D5CAB;
+}
+
+/* POPULARES */
+
+#eventos, footer{
+    margin-left: 4rem;
+}
+
+#shows{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+#shows>p{
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.teatro{
+    display: flex;
+    margin: 0;
+}
+
+.teatro p:nth-child(1){
+    color: #f8722a;
+    margin-top: 0;
+}
+
+img {
+    width: 200px; 
+     height: auto;
+     border-radius: 1rem;
+     margin-right: 2rem;
+     margin-bottom: 3rem;
+}
+
+
+#texto p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#texto p:nth-child(2){
+    font-size: 0.9rem;
+    color: rgb(92, 90, 90);
+}
+
+/* FOOTER */
+footer{
+    margin: 0;
+    display: flex;
+    background-color: #3D5CAB;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#foot{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+#fontaw{
+    margin-top: 1rem;
+}
+
+.icon{
+    color: white;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.icon p{
+    margin: 1rem;
+}
+
+
+

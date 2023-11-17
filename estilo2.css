@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+/* MAIN */
+main{
+    height: 50rem;
+}
+
+/*IMAGEM */
+img{
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+div#foto{
+    height: 6rem;
+    background-color: #f8722a
+}
+
+/* TAG CONTENT*/
+
+section#content{
+    margin-top: 20.5rem;
+}
+
+#text2 > p:first-of-type{
+    margin-left: 30rem;
+    font-size: 1.5rem;
+}
+
+#js{
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+input#num{
+    width: 4rem;
+    height: 1.1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+#result{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: green;
+}
+
+.detalhes-compra{
+    color: #f8722a;
+    font-weight: bold;
+}
+
+.det{
+    color: black;
+}
