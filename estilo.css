@@ -11,8 +11,8 @@ body{
 
 /* BARRA DE NAVEGAÇÃO */
 nav{
-    background-color: #3D5CAB;
-    height: 4rem;
+    background-color: #212026;
+    height: 10vh;
 } 
 
 ul li{
@@ -38,31 +38,29 @@ ul{
 
 /*  MAIN */
 main{
-    flex: 1;
+    /* flex: 1; */
 }
 
 /* SHAPE E INTRODUÇÃO */
 section#introd{
-    height: 20rem;
+    height: 70vh;
     
-}
-
-div#main{
-    background-color: #3D5CAB;
 }
 
 /* POPULARES */
 
-#eventos, footer{
-    margin-left: 4rem;
+#eventos{
+    background-color: #212026;
+    padding-top: 1rem;
+    height: 100vh;
 }
 
 #shows{
-    margin-top: 0;
-    margin-bottom: 2rem;
+    padding-left: 3rem;
 }
 
 #shows>p{
+    color: #988965;
     font-weight: 900;
     font-size: 1.2rem;
     text-decoration: underline;
@@ -70,29 +68,49 @@ div#main{
 
 .teatro{
     display: flex;
-    margin: 0;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+#atr1, #atr2, #atr3{
+    background-color: white;
+    width: 45vw;
+    border-radius: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+#atr1:hover, #atr2:hover, #atr3:hover{
+    transform: scale(1.05);
+}
+
+
+
+div.imagem{
+    display: flex;
+}
+
+div.imagem img{
+    width: 15rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
 .teatro p:nth-child(1){
-    color: #f8722a;
+    color: red;
     margin-top: 0;
 }
 
-img {
-    width: 200px; 
-     height: auto;
-     border-radius: 1rem;
-     margin-right: 2rem;
-     margin-bottom: 3rem;
+.texto{
+    margin-left: 1rem;
 }
 
-
-#texto p{
+.texto p{
     margin-bottom: 0;
     margin-top: 0;
 }
 
-#texto p:nth-child(2){
+.texto p:nth-child(2){
     font-size: 0.9rem;
     color: rgb(92, 90, 90);
 }
@@ -101,7 +119,7 @@ img {
 footer{
     margin: 0;
     display: flex;
-    background-color: #3D5CAB;
+    background-color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -116,7 +134,7 @@ footer{
 }
 
 .icon{
-    color: white;
+    color: black;
     padding-left: 1rem;
     display: flex;
 }
